@@ -1,0 +1,2 @@
+# zadanieKCK
+zadanko git
