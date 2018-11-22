@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h1>Normalnie nie wierzę</h1><br>
+<div id="div2">
+<form>
+ Wpisz swój nick:
+ <br>
+ <input type="text" name="Nick" value="">
+ <br>
+ <p><input type="radio" name="opcja" value="1" checked="checked"> Robotyka będzie się rozwijać dalej</p>
+<p><input type="radio" name="opcja" value="2"> Robotyka wkrótce przestanie się rozwijać/wyczerpie swoje możliwości</p>
+
+ <p>
+     Dlaczego tak sądzisz?
+    <br>
+    <textarea name="content" rows="12" cols="50"></textarea>
+</p>
+<input type="submit" value="Submit">
+</form>
+</div>
+<p>Żeby nie było że pusta strona.</p>
+{% endblock content %}
